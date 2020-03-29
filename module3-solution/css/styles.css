@@ -1,0 +1,94 @@
+*{
+	border-radius: 0;
+	margin:0;
+}
+body{
+	background-color: #a4bcd1;
+	font-family: 'Comic Neue', cursive;	
+}
+p.brand{
+	padding: 20px;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+	width: auto;
+	font-size: 1.5em;
+	margin: 0;
+}
+h2{
+	position:relative;
+	color: #ffffff;
+}
+.nav-list{
+	display:block
+}
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+.navbar-brand{
+	padding: 0;
+}
+.navbar-toggle{
+	margin-top: -30px;
+	clear: both;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #dff0d8;
+}
+.navbar-default .navbar-toggle{
+	border-color: #dff0d8;
+}
+.navbar{
+		border-radius: 0;
+		background-color: #4b6776;
+		border-color: #4b6776;
+}
+.chicken{
+	font-size: 16px;
+	color: white;
+	padding: 0 15px 15px 15px;
+	border:solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #83959f;
+}
+.beef{
+	font-size: 16px;
+	color: white;
+	padding: 0 15px 15px 15p
+	border:solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #83959f;
+	
+}
+.sushi{
+	font-size: 16px;
+	color: white;
+	padding: 0 15px 15px 15px;
+	border:solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #83959f;	
+}
+.chicken>span, .beef>span, .sushi>span{
+	font-weight: bold;
+	color: darkblue;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	padding-bottom: 5px;
+}
+#nav-list{
+	text-align: center;
+}
+#nav-list>li{
+	border-bottom: solid;
+	border-width: 1px;
+	padding: 1% 0 1% 0;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
